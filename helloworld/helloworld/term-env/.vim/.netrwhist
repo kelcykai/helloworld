@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/mnt/sdc/zhikaix/source/cht5.1/device/intel/cherrytrail/cht_cr_rvp/overlay/frameworks/base/core/res'
+let g:netrw_dirhist_2='/mnt/sdc/zhikaix/source/cht5.1/device/intel/cherrytrail/cht_cr_rvp/overlay/frameworks/base/core/res/res'
+let g:netrw_dirhist_3='/mnt/sdc/zhikaix/source/cht5.1/device/intel/cherrytrail/cht_cr_rvp/overlay/frameworks/base/core/res/res/values'
+let g:netrw_dirhist_4='/mnt/sdc/zhikaix/M_tutorial/triangle'
+let g:netrw_dirhist_5='/mnt/sdc/zhikaix/source/R51/frameworks/native/opengl/tests/angeles'
+let g:netrw_dirhist_6='/mnt/sdc/zhikaix/source/R51/frameworks/native/opengl/tests/tritex'
+let g:netrw_dirhist_7='/mnt/sdc/zhikaix/source/diff_image_tool/convert'
