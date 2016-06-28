@@ -11,7 +11,7 @@ else
 fi
 
 #find $FD  -name "*.c" -or -name "*.h" -or -name "*.cpp" -or -name "*.S" -or -name "*.java" > ./cscope.files
-find $FD  -name "*.c" -or -name "*.h" -or -name "*.cpp" > ./c++.files
+find $FD  -name "*.c" -or -name "*.h" -or -name "*.cpp" > ./cscope.files
 
 if [ $2 ]; then
 	find $PWD/$2  -name "*.c" -or -name "*.h" -or -name "*.cpp" -or -name "*.S" -or -name "*.java" >> ./cscope.files
@@ -21,6 +21,7 @@ if [ $3 ]; then
 fi
 	
 
-cscope -Rbqk -i  $PWD/c++.files 
+cscope -Rbqk -i  $PWD/cscope.files 
 #cp cscope.out c++.out
 #cscope -Rbqk -i  $PWD/cscope.files 
+lookupfile

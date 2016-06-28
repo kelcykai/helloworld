@@ -4,7 +4,7 @@ map <F4> :execute "vimgrep /" . expand("<cword>") . "/jg **" <Bar> cw<CR>
 
 map /w :cw<CR>
 
-nmap <F5> :TagbarToggle<CR>
+nmap <F6> :TagbarToggle<CR>
 
 map <F9> <leader>m<cr>
 
@@ -18,6 +18,8 @@ map ,wq :wq<cr>
 
 set ls=2
 set number
+set expandtab
+set tabstop=4
 
 "plugin MRU
 nmap ,w :MRU<cr>
@@ -27,6 +29,8 @@ set incsearch
 set ignorecase           
 nmap cs! :set ignorecase!<cr>
 
+"lookupfile
+let g:LookupFile_TagExpr = '"./filenametags"' 
 
 " set fuzzyfinder
 let g:fuf_maxMenuWidth = 200
