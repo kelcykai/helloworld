@@ -418,7 +418,11 @@ exe 'hi Ignore       guifg=bg'
 exe 'hi Error        guifg=' . s:boldWhite . ' guibg=' . s:boldRed
 exe 'hi Todo         guifg=bg guibg=' . s:brown
 
-let colors_name = "ansi_blows"
+colorscheme molokai 
+set t_Co=256
+set background=dark
+syntax on
+set nu!
 
 " vim: sw=2
 
